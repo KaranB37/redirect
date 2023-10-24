@@ -1,4 +1,37 @@
 /* src/App.css */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff; /* Background color for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(228, 12, 228); /* Color for the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Style for Firefox */
+/* Note that Firefox doesn't support background images on the scrollbar */
+* {
+    scrollbar-color: rgb(224, 20, 255) rgb(221, 7, 254); /* Color for the thumb and track */
+    scrollbar-width: thin; /* Width of the scrollbar */
+}
+
+/* Style for Edge/IE */
+/* Edge and Internet Explorer do not support scrollbar customization */
+
+/* Add your background image here */
+
 .header {
     display: flex;
     align-items: center;
