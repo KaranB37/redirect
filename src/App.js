@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1>Hii Dhiraj! </h1>
+        <h1>Hii Harsh ! </h1>
         <img src={profile2} alt="Image_1" className="profile rotate" />
       </header>
       <div className="content-container">
